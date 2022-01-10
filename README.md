@@ -25,6 +25,8 @@ agents should move towrds each pokemon and reach close enough then the pokemon c
   - there are 2 types of pokemons , Ground and Water if the pokemon spawn in the water or in other words
     if the pokemon possition  > 440 or  > 820 it will be WATER type , otherwise GROUND type
   
+  
+  
 #Algorithms :
   shortestPath - Dijekstra's Algorithm for shortest path works as follow While Q is not empty, pop the node V, 
                  that is not already in S, from Q with the smallest distdist (V). In the first run, source node ss will be chosen because distdist(ss) 
@@ -38,13 +40,19 @@ agents should move towrds each pokemon and reach close enough then the pokemon c
 shortestPathDist - We use shortestPath to count the total distance by adding each passed edge and returning it [complexity Theta(|E|+|V|log|V|)]
 
 
+                                                 
+                                                 
 
 #Execute :
   working the best at case 4 use  "java -jar Ex4_Server_v0.0.jar 4"  command to run the server then simple "Bureaucracy.py" would run the code
 
+                                                 
+                                                 
 #Testing :
   I used my previous task test so it will work also here testing my basic algorithm
 
+                                                 
+                                                 
 #GUI :
   I used the GUI received from the task and customized it , pokemons are actual pokemons that with certain limits change their type
   I put a background image and every detail has an image to describe itself so node are rocks , agent are pokemon hunter and pokemons actual pokemons
@@ -53,13 +61,7 @@ shortestPathDist - We use shortestPath to count the total distance by adding eac
 #Video :
 
 
-  <object width="425" height="350">
-  <param name="movie" value="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg" />
-  <param name="wmode" value="transparent" />
-  <embed src="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-  </object>
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/v=m0kUNn003rs/0.jpg)](https://www.youtube.com/watch?v=v=m0kUNn003rs)
   
 
 
