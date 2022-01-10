@@ -61,7 +61,7 @@ shortestPathDist - We use shortestPath to count the total distance by adding eac
 #Video :
 
 
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/v=m0kUNn003rs/0.jpg)](https://www.youtube.com/watch?v=v=m0kUNn003rs)
+
   
 
 
