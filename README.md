@@ -24,7 +24,7 @@ agents should move towrds each pokemon and reach close enough then the pokemon c
   - and agents move only by half of the knapsack problem priority list so they will catch only valuable pokemons
   - to get the best path I used Dijekstra algorithm and the agents move accordingly
   - there are 2 types of pokemons , Ground and Water if the pokemon spawn in the water or in other words
-    if the pokemon possition  > 440 or  > 820 it will be WATER type , otherwise GROUND type
+    if the pokemon possition  y > 440 or x > 820 it will be WATER type , otherwise GROUND type
   
   
   
