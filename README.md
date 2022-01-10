@@ -1,6 +1,6 @@
-## OPP Exercise No.4
+# OPP Exercise No.4
 
-# Welcome to our fourth exersice
+## Welcome to our fourth exersice
 
 <sub>code written by Denis Chernoglaz<sub>
 
@@ -16,7 +16,7 @@ the pokemons generated randomaly on a connected graph and agents spawn on differ
 agents should move towrds each pokemon and reach close enough then the pokemon considered "catched"
 
 
-# Implementation :
+## Implementation :
   - wrote in python
   - I used my previous graph algorithms and graph implementaion , check OOP_Ex3 for more info
   - for the pokemon priorety I used a humble solution for the knapsack problem that takes every object
@@ -28,7 +28,7 @@ agents should move towrds each pokemon and reach close enough then the pokemon c
   
   
   
-# Algorithms :
+## Algorithms :
   shortestPath - Dijekstra's Algorithm for shortest path works as follow While Q is not empty, pop the node V, 
                  that is not already in S, from Q with the smallest distdist (V). In the first run, source node ss will be chosen because distdist(ss) 
                  was initialized to 0. In the next run, the next node with the smallest distdist value is chosen. Add node vv to SS, to indicate
@@ -44,22 +44,22 @@ shortestPathDist - We use shortestPath to count the total distance by adding eac
                                                  
                                                  
 
-# Execute :
+## Execute :
   working the best at case 4 use  "java -jar Ex4_Server_v0.0.jar 4"  command to run the server then simple "Bureaucracy.py" would run the code
 
                                                  
                                                  
-# Testing :
+## Testing :
   I used my previous task test so it will work also here testing my basic algorithm
 
                                                  
-# Video :
+## Video :
 
       https://www.youtube.com/watch?v=m0kUNn003rs
                                                  
                                                  
                                                  
-# GUI :
+## GUI :
   I used the GUI received from the task and customized it , pokemons are actual pokemons that with certain limits change their type
   I put a background image and every detail has an image to describe itself so node are rocks , agent are pokemon hunter and pokemons actual pokemons
                                                  
